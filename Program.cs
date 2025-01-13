@@ -11,15 +11,15 @@
             #endregion
             #region 2.Develop a Class to represent the Hiring Date Data:•	Consisting of fields to hold the day, month and Years.
 
-            //HiringDateData hiringDateData = new HiringDateData(101, 10, 20101);
-            //if (hiringDateData.Day == 0 || hiringDateData.Month == 0 || hiringDateData.Year == 0)
-            //{
-            //    Console.WriteLine("Invalid date");
-            //}
-            //else
-            //{
-            //    Console.WriteLine(hiringDateData);
-            //}
+            HiringDateData hiringDateData = new HiringDateData(101, 10, 20101);
+            if (hiringDateData.Day == 0 || hiringDateData.Month == 0 || hiringDateData.Year == 0)
+            {
+                Console.WriteLine("Invalid date");
+            }
+            else
+            {
+                Console.WriteLine(hiringDateData);
+            }
             #endregion
 
             #region 3-Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee [] EmpArr;)

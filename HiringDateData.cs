@@ -32,11 +32,11 @@ namespace assignment_oop_3
             get { return year; }
             set { year = (value >= 1900 && value <= 2025) ? value : 0; }
         }
-        public HiringDateData(int Day, int Month, int Year)
+        public HiringDateData(int Dday, int Mmonth, int Yyear)
         {
-            day = Day;
-            month = Month;
-            year = Year;
+            Day = Dday;
+            Month = Mmonth;
+            Year = Yyear;
         }
 
         public override string ToString()
